@@ -1,4 +1,4 @@
-# 📚 Estudo: Curso Pandas: conhecendo a biblioteca Alura
+# 📚 Estudo: Curso Pandas: conhecendo a biblioteca - Alura
 
 > Repositório dedicado aos meus estudos sobre biblioteca Pandas, com o objetivo de aprofundar conhecimentos em Análise exploratória de dados, Tratamento de dados Nulos, Filtragem de dados.
 
