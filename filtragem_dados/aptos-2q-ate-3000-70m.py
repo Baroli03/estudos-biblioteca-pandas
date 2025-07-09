@@ -9,3 +9,4 @@ selecao = (df_apartamentos['Quartos'] >= 2) & (df_apartamentos['Valor'] < 3000) 
 df_2q_ate_3000_70m_forma2 = df_apartamentos[selecao]
 print(df_2q_ate_3000_70m_forma2)
 
+df_2q_ate_3000_70m.to_csv('dados_apartamentos_3000.csv', index=False, sep=';')
