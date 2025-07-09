@@ -12,3 +12,5 @@ selecao2 = df_apartamentos['Valor'] < 1200
 selecao_final = (selecao1) & (selecao2)
 df_1q_ate_1200_forma2 = df_apartamentos[selecao_final]
 print(df_1q_ate_1200_forma2)
+
+df_1q_ate_1200.to_csv('dados_apartamentos_1200.csv', index=False, sep=';')
