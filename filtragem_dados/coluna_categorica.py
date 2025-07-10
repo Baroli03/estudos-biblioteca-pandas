@@ -10,4 +10,4 @@ print(dados.head())
 # dados.loc[suites_true, 'Possui_suite'] = True
 # dados.loc[suites_false, 'Possui_suite'] = False
 dados['Possui_suite'] = dados['Suites'].apply(lambda x: True if x > 0 else False)
-dados.to_csv('dados.csv')
+dados.to_csv('dados.csv', index=False)
